@@ -1,0 +1,66 @@
+.button{
+}
+
+
+.head-label{
+    -fx-text-fill:white;
+    -fx-padding : 0 0 0 15px;
+    -fx-background-color:#3c415e;
+
+    -fx-font-size: 11pt;
+}
+
+.head-label-bold{
+    -fx-text-fill:#3c415e;
+}
+
+.root{
+    -fx-accent: #1cb3c8;
+    -fx-focus-color: #1cb3c8;
+    -fx-faint-focus-color: #1cb3c822;
+    -fx-font-size: 9pt;
+}
+
+.tab *.tab-label {
+
+}
+
+#tabcolCENTER{
+-fx-alignment: CENTER;
+}
+
+.table-view .column-header{
+    -fx-background-color:#94a1b0;
+    -fx-text-fill:white;
+}
+
+
+.tab:selected .tab-label {
+    -fx-text-fill: #1cb3c8;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab {
+ -fx-padding: 5px 10px 5px 10px;
+}
+
+.anchor-bottom{
+    -fx-background-color:#3c415e;
+}
+#009999;
+#5d9b9b;
+
+#3c415e;
+738598  94a1b0
+dfe2e2
+1cb3c8
+
+fgbh    -fx-font-style: bold;
+"Tahoma"
+"Cuprum"
+"Open Sans Condensed"
+    -fx-text-fill: #738598;
+
+        -fx-accent: #8be4f0; -fx-accent: #8be4f0;
+
+        -fx-font-family: "Open Sans Condensed";
+            -fx-font-family: "Cuprum";

@@ -1,25 +1,19 @@
-public class Main {
-    public static void main(String[] args){
-        // Данные для проверки: (0, 0); (0, 12); (16, 0); 10
-        System.out.println ("Программа проверяет, можно ли вписать в тругольник с заданными координатами вершин A, B и С окружность радиуса R.");
-        Triangle t = new Triangle();
-        if(!t.isTriangle()){
-            System.out.println("Данные точки лежат на одной прямой");
-            return;
-        }
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 
-        Circle c = new Circle();
-        if(c.getR() < 1){
-            System.out.println("Некорректное значение радиуса");
-            return;
-        }
+public class Main extends Application{
 
-        if(Math.abs(t.calcRadius() - c.getR()) < 0.001){
-            System.out.print("Окружность с радиусом " + c.getR() + " можно вписать в треугольник с вершинами ");
-            t.printT();
-        } else {
-            System.out.print("Окружность с радиусом " + c.getR() + " нельзя вписать в треугольник с вершинами ");
-            t.printT();
-        }
+   public void start(Stage primaryStage) throws Exception{
+       Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+       primaryStage.setTitle("Задание 07014.Елена Романова");
+       primaryStage.setScene(new Scene(root, 600, 330));
+       primaryStage.show();
+   }
+
+    public static void main(String[] args) {
+        launch(args);
     }
 }
