@@ -6,7 +6,7 @@ public class Circle {
 
     public Circle(){
         sc = new Scanner (System.in);
-        System.out.print("Введите радиус окружности: ");
+        System.out.print("Введите радиус окружности ");
         r = sc.nextInt();
     }
 
