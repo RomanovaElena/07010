@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
 public class Circle {
-    private int r; // радиус окружнсти
+    public int r; // радиус окружнсти
     Scanner sc;
 
     public Circle(){
         sc = new Scanner (System.in);
-        System.out.print("Введите радиус   окружности ");
+        System.out.print("Введите радиус окружности ");
         r = sc.nextInt();
     }
 
