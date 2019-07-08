@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="/styles/my.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller2">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" styleClass="head-label" text=" РЕШИТЬ ЗАДАЧУ" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Label layoutX="211.0" layoutY="114.0" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" styleClass="head-label2" text="ИСХОДНЫЕ ДАННЫЕ" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0" />
+      <Label layoutX="221.0" layoutY="124.0" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" styleClass="head-label2" text=" РЕЗУЛЬТАТ" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="250.0" />
+      <Label layoutX="70.0" layoutY="96.0" maxHeight="20.0" minHeight="20.0" prefHeight="20.0" text="Координаты вершин треугольника" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="80.0" />
+      <Label layoutX="20.0" layoutY="147.0" maxHeight="20.0" maxWidth="130.0" minHeight="20.0" minWidth="130.0" prefHeight="20.0" prefWidth="130.0" text="Радиус окружности R:" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="447.0" AnchorPane.topAnchor="210.0" />
+      <Label layoutX="80.0" layoutY="106.0" maxHeight="20.0" maxWidth="20.0" minHeight="20.0" minWidth="20.0" prefHeight="20.0" prefWidth="20.0" text="X" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="140.0" />
+      <TextField fx:id="aX" layoutX="40.0" layoutY="110.0" maxHeight="20.0" maxWidth="40.0" minHeight="20.0" minWidth="40.0" prefHeight="20.0" prefWidth="40.0" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="140.0" />
+      <Label layoutX="80.0" layoutY="106.0" maxHeight="20.0" maxWidth="70.0" minHeight="20.0" minWidth="70.0" prefHeight="20.0" prefWidth="70.0" text="Вершина А:" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="110.0" />
+      <Label layoutX="20.0" layoutY="169.0" maxHeight="20.0" maxWidth="20.0" minHeight="20.0" minWidth="20.0" prefHeight="20.0" prefWidth="20.0" text="Y" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="170.0" />
+      <TextField fx:id="aY" layoutX="40.0" layoutY="170.0" maxHeight="20.0" maxWidth="40.0" minHeight="20.0" minWidth="40.0" prefHeight="20.0" prefWidth="40.0" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="170.0" />
+      <Label layoutX="109.0" layoutY="110.0" maxHeight="20.0" maxWidth="70.0" minHeight="20.0" minWidth="70.0" prefHeight="20.0" prefWidth="70.0" text="Вершина B:" AnchorPane.leftAnchor="130.0" />
+      <Label layoutX="120.0" layoutY="170.0" maxHeight="20.0" maxWidth="20.0" minHeight="20.0" minWidth="20.0" prefHeight="20.0" prefWidth="20.0" text="Y" AnchorPane.leftAnchor="130.0" AnchorPane.topAnchor="170.0" />
+      <Label layoutX="130.0" layoutY="140.0" maxHeight="20.0" maxWidth="20.0" minHeight="20.0" minWidth="20.0" prefHeight="20.0" prefWidth="20.0" text="X" AnchorPane.leftAnchor="130.0" AnchorPane.topAnchor="140.0" />
+      <TextField fx:id="bX" layoutX="145.0" layoutY="140.0" maxHeight="20.0" maxWidth="40.0" minHeight="20.0" minWidth="40.0" prefHeight="20.0" prefWidth="40.0" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="140.0" />
+      <TextField fx:id="bY" layoutX="150.0" layoutY="170.0" maxHeight="20.0" maxWidth="40.0" minHeight="20.0" minWidth="40.0" prefHeight="20.0" prefWidth="40.0" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="170.0" />
+      <Label layoutX="236.0" layoutY="110.0" maxHeight="20.0" maxWidth="70.0" minHeight="20.0" minWidth="70.0" prefHeight="20.0" prefWidth="70.0" text="Вершина C:" AnchorPane.leftAnchor="240.0" AnchorPane.topAnchor="110.0" />
+      <Label layoutX="250.0" layoutY="170.0" maxHeight="20.0" maxWidth="20.0" minHeight="20.0" minWidth="20.0" prefHeight="20.0" prefWidth="20.0" text="Y" AnchorPane.leftAnchor="240.0" AnchorPane.topAnchor="170.0" />
+      <Label layoutX="250.0" layoutY="140.0" maxHeight="20.0" maxWidth="20.0" minHeight="20.0" minWidth="20.0" prefHeight="20.0" prefWidth="20.0" text="X" AnchorPane.leftAnchor="240.0" AnchorPane.topAnchor="140.0" />
+      <TextField fx:id="cX" layoutX="155.0" layoutY="150.0" maxHeight="20.0" maxWidth="40.0" minHeight="20.0" minWidth="40.0" prefHeight="20.0" prefWidth="40.0" AnchorPane.leftAnchor="260.0" AnchorPane.topAnchor="140.0" />
+      <TextField fx:id="cY" layoutX="155.0" layoutY="150.0" maxHeight="20.0" maxWidth="40.0" minHeight="20.0" minWidth="40.0" prefHeight="20.0" prefWidth="40.0" AnchorPane.leftAnchor="260.0" AnchorPane.topAnchor="170.0" />
+      <TextField fx:id="r" layoutX="170.0" layoutY="210.0" maxHeight="20.0" maxWidth="40.0" minHeight="20.0" minWidth="40.0" prefHeight="20.0" prefWidth="40.0" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="210.0" />
+      <TextArea editable="false" layoutX="30.0" layoutY="210.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="300.0" />
+   </children>
+</AnchorPane>

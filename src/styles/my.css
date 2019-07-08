@@ -1,7 +1,3 @@
-.button{
-}
-
-
 .head-label{
     -fx-text-fill:white;
     -fx-padding : 0 0 0 15px;
@@ -10,8 +6,12 @@
     -fx-font-size: 11pt;
 }
 
-.head-label-bold{
-    -fx-text-fill:#3c415e;
+.head-label2{
+    -fx-text-fill:white;
+    -fx-padding : 0 0 0 15px;
+    -fx-background-color:#1cb3c8;
+
+    -fx-font-size: 11pt;
 }
 
 .root{
@@ -21,31 +21,6 @@
     -fx-font-size: 9pt;
 }
 
-.tab *.tab-label {
-
-}
-
-#tabcolCENTER{
--fx-alignment: CENTER;
-}
-
-.table-view .column-header{
-    -fx-background-color:#94a1b0;
-    -fx-text-fill:white;
-}
-
-
-.tab:selected .tab-label {
-    -fx-text-fill: #1cb3c8;
-}
-
-.tab-pane > .tab-header-area > .headers-region > .tab {
- -fx-padding: 5px 10px 5px 10px;
-}
-
-.anchor-bottom{
-    -fx-background-color:#3c415e;
-}
 #009999;
 #5d9b9b;
 
