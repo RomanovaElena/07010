@@ -3,10 +3,10 @@ public class Triangle {
     public Coord b;
     public Coord c;
 
-    public Triangle() {
-        a = new Coord("A");
-        b = new Coord("B");
-        c = new Coord("C");
+    public Triangle(int xA, int yA, int xB, int yB, int xC, int yC) {
+        a = new Coord(xA, yA);
+        b = new Coord(xB, yB);
+        c = new Coord(xC, yC);
     }
 
     public boolean isTriangle(){
@@ -53,11 +53,5 @@ public class Triangle {
     public double calcRadius() {
         double rc = calcAb() * calcBc() * calcAc()/(4 * calcArea());
         return rc;
-    }
-
-    public void printT(){
-        System.out.print(a.getName() + "(" + a.getX() + ", " + a.getY() + "); ");
-        System.out.print(b.getName() + "(" + b.getX() + ", " + b.getY() + "); ");
-        System.out.print(c.getName() + "(" + c.getX() + ", " + c.getY() + ")");
     }
 }

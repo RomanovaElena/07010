@@ -4,10 +4,8 @@ public class Circle {
     private int r; // радиус окружнсти
     Scanner sc;
 
-    public Circle(){
-        sc = new Scanner (System.in);
-        System.out.print("Введите радиус окружности: ");
-        r = sc.nextInt();
+    public Circle(int r){
+        this.r = r;
     }
 
     public void setR(int r){
