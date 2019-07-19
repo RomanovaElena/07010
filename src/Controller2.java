@@ -1,7 +1,8 @@
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-
-import java.awt.*;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
+import javafx.scene.control.TextArea;
 
 public class Controller2 {
 
@@ -50,7 +51,7 @@ public class Controller2 {
         xc =  Integer.parseInt(cX.getText());
         yc =  Integer.parseInt(cY.getText());
         Calc c = new Calc();
-        result = c.calc(rad, xa, ya, xb, yb, xc, yc);
+        result = c.calc(xa, ya, xb, yb, xc, yc, rad);
         textResult.setText(result);
     }
     public void onCalc(ActionEvent actionEvent){

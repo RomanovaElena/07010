@@ -1,5 +1,5 @@
 public class Calc {
-    public String calc(int r, int xA, int yA,  int xB, int yB, int xC, int yC){
+    public String calc(int xA, int yA,  int xB, int yB, int xC, int yC, int r){
         Triangle t = new Triangle(xA, yA, xB, yB, xC, yC);
         String s1;
         if(!t.isTriangle()){
